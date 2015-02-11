@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainmenu>
+		<singleplayerGer>Einzelspieler</singleplayerGer>
+		<singleplayerEng>Singleplayer</singleplayerEng>
+		<multiplayerGer>Mehrspieler</multiplayerGer>
+		<multiplayerEng>Multiplayer</multiplayerEng>
+		<settingsGer>Einstellungen</settingsGer>
+		<settingsEng>Settings</settingsEng>
+		<creditsGer>Credits</creditsGer>
+		<creditsEng>Credits</creditsEng>
+		<closeGer>Schließen</closeGer>
+		<closeEng>Close</closeEng>
+</mainmenu>

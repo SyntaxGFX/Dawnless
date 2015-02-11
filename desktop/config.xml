@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DO NOT CHANGE THESE VALUES IF YOU WANT THAT YOURE GAME RUNS PROPERLY-->
+<config>
+	<res_w>1280</res_w>
+	<res_h>720</res_h>
+	<ffps>60</ffps>
+	<bfps>30</bfps>
+	<fullscreen>false</fullscreen>
+	<resizeable>false</resizeable>
+	<title>Heroic - Development Edition</title>
+	<lang>ENGLISH</lang>
+</config>
