@@ -1,6 +1,5 @@
 package net.isuky.dawnless.screens.control;
 
-import net.isuky.dawnless.Dawnless;
 import net.isuky.dawnless.screens.MainMenu;
 import net.isuky.dawnless.screens.PlayScreen;
 import net.isuky.dawnless.utils.CheckLang;
@@ -145,6 +144,7 @@ public class MainMenuControl
 		{
 			btnStr = mmScr.mainMenuRoot.get("creditsGer");
 		}
+		
         creditsButton = new TextButton(btnStr, skin);
         creditsButton.setPosition(Gdx.graphics.getWidth() / 2.7f - Gdx.graphics.getWidth() / 8 , Gdx.graphics.getHeight() / 6.5f);
         
@@ -179,6 +179,7 @@ public class MainMenuControl
 		{
 			btnStr = mmScr.mainMenuRoot.get("closeGer");
 		}
+		
         endButton = new TextButton(btnStr, skin);
         endButton.setPosition(Gdx.graphics.getWidth()/2.7f - Gdx.graphics.getWidth()/8 , Gdx.graphics.getHeight()/28f);
         

@@ -7,7 +7,6 @@
 package net.isuky.dawnless.levels;
 
 import com.badlogic.gdx.Game;
-import com.badlogic.gdx.Gdx;
 
 import net.isuky.dawnless.level.Level;
 

@@ -1,7 +1,5 @@
 package net.isuky.dawnless.utils;
 
-import com.badlogic.gdx.Gdx;
-
 import net.isuky.dawnless.Dawnless;
 
 public class CheckLang 
