@@ -5,7 +5,7 @@ import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.Vector2;
 
-public class Player 
+public class Player implements PlayerType
 {
 	//Player position
 	private float x,y;
@@ -20,9 +20,19 @@ public class Player
 				FRAME_COLS;
 	
 	//Animations
-	public Animation idle,
-					 walk,
-					 attack;
+	private Animation idle,
+					  walk,
+					  attack;
+	
+	/*
+	 * The stateTime is the number of seconds elapsed from the start of the animation
+	 * This is used to determine the state of the animation
+	 *  It is a simple accumulator based on which the animation knows when to change to the next state
+	 **/
+	private float stateTime;
+	
+	
+	private Type playerType;
 	
 	public Player(float x, float y)
 	{
@@ -42,6 +52,8 @@ public class Player
 	{
 		FRAME_COLS = 0;
 		FRAME_ROWS = 0;
+		
+		playerType = PlayerType.Type.none;
 	}
 	
 	/**
@@ -98,5 +110,10 @@ public class Player
 	public Vector2 getPosition()
 	{
 		return playerVec;
+	}
+	
+	private void initAnimations()
+	{
+		
 	}
 }
