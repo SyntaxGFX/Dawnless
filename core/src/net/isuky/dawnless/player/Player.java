@@ -1,3 +1,9 @@
+/**
+ * A Class wich handles the Player
+ * 
+ * @author Alexander Chabowski
+ * */
+
 package net.isuky.dawnless.player;
 
 import com.badlogic.gdx.graphics.Texture;
@@ -43,6 +49,8 @@ public class Player implements PlayerType
 	public Player(Vector2 playerVec)
 	{
 		this.playerVec = playerVec;
+		this.x = playerVec.x;
+		this.y = playerVec.y;
 	}
 	
 	/**
@@ -114,6 +122,19 @@ public class Player implements PlayerType
 	
 	private void initAnimations()
 	{
-		
+		if(playerType.equals(PlayerType.Type.Archer)){}
+		if(playerType.equals(PlayerType.Type.Assassine)){}
+		if(playerType.equals(PlayerType.Type.Elve)){}
+		if(playerType.equals(PlayerType.Type.Lynx)){}
+		if(playerType.equals(PlayerType.Type.Mage)){}
+		if(playerType.equals(PlayerType.Type.none)){}
+		if(playerType.equals(PlayerType.Type.Orc)){}
+		if(playerType.equals(PlayerType.Type.Paladin)){}
+		if(playerType.equals(PlayerType.Type.Skeleton)){}
+		if(playerType.equals(PlayerType.Type.Slave)){}
+		if(playerType.equals(PlayerType.Type.Thief)){}
+		if(playerType.equals(PlayerType.Type.Warrior)){}
+		if(playerType.equals(PlayerType.Type.Wolf)){}
+
 	}
 }
