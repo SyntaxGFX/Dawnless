@@ -5,7 +5,7 @@
  * @author Alexander Chabowski
  * */
 
-package net.isuky.heroic.level;
+package net.isuky.dawnless.level;
 
 import com.badlogic.gdx.Game;
 

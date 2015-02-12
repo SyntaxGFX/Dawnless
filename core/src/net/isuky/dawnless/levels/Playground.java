@@ -4,12 +4,12 @@
  *@author Alexander Chabowski
  * */
 
-package net.isuky.heroic.levels;
+package net.isuky.dawnless.levels;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 
-import net.isuky.heroic.level.Level;
+import net.isuky.dawnless.level.Level;
 
 public class Playground implements Level
 {

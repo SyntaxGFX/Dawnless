@@ -1,9 +1,9 @@
-package net.isuky.heroic.screens.control;
+package net.isuky.dawnless.screens.control;
 
-import net.isuky.heroic.Dawnless;
-import net.isuky.heroic.screens.MainMenu;
-import net.isuky.heroic.screens.PlayScreen;
-import net.isuky.heroic.utils.CheckLang;
+import net.isuky.dawnless.Dawnless;
+import net.isuky.dawnless.screens.MainMenu;
+import net.isuky.dawnless.screens.PlayScreen;
+import net.isuky.dawnless.utils.CheckLang;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
@@ -24,7 +24,7 @@ public class MainMenuControl
 	 * @param game
 	 * @param stage
 	 * */
-	public static void addSingleplayerButton(final MainMenu mmScr, TextButton singleplayerButton, Skin skin, final Game game, Stage stage)
+	public static final void addSingleplayerButton(final MainMenu mmScr, TextButton singleplayerButton, Skin skin, final Game game, Stage stage)
 	{
 		String btnStr = null;
 		
@@ -62,7 +62,7 @@ public class MainMenuControl
 	 * @param skin
 	 * @param stage
 	 */
-	public static void addMultiplayerButton(MainMenu mmScr,TextButton multiplayerButton, Skin skin, Stage stage)
+	public static final void addMultiplayerButton(MainMenu mmScr,TextButton multiplayerButton, Skin skin, Stage stage)
 	{
 		String btnStr = null;
 		
@@ -97,7 +97,7 @@ public class MainMenuControl
 	 * @param skin
 	 * @param stage
 	 */
-	public static void addSettingsButton(MainMenu mmScr,TextButton optionsButton, Skin skin, Stage stage)
+	public static final void addSettingsButton(MainMenu mmScr,TextButton optionsButton, Skin skin, Stage stage)
 	{
 		String btnStr = null;
 		
@@ -132,7 +132,7 @@ public class MainMenuControl
 	 * @param skin
 	 * @param stage
 	 */
-	public static void addCreditsButton(MainMenu mmScr,TextButton creditsButton, Skin skin, Stage stage)
+	public static final void addCreditsButton(MainMenu mmScr,TextButton creditsButton, Skin skin, Stage stage)
 	{
 		String btnStr = null;
 		
@@ -166,7 +166,7 @@ public class MainMenuControl
 	 * @param skin
 	 * @param stage
 	 */
-	public static void addCloseButton(MainMenu mmScr,TextButton endButton, Skin skin, Stage stage)
+	public static final void addCloseButton(MainMenu mmScr,TextButton endButton, Skin skin, Stage stage)
 	{
 		String btnStr = null;
 		

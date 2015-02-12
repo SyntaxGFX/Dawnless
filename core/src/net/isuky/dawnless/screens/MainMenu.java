@@ -1,7 +1,7 @@
-package net.isuky.heroic.screens;
+package net.isuky.dawnless.screens;
 
-import net.isuky.heroic.Dawnless;
-import net.isuky.heroic.screens.control.MainMenuControl;
+import net.isuky.dawnless.Dawnless;
+import net.isuky.dawnless.screens.control.MainMenuControl;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;

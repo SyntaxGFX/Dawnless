@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import javax.xml.parsers.ParserConfigurationException;
 
-import net.isuky.heroic.Dawnless;
+import net.isuky.dawnless.Dawnless;
 
 import org.xml.sax.SAXException;
 

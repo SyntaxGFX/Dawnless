@@ -1,11 +1,11 @@
-package net.isuky.heroic;
+package net.isuky.dawnless;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-import net.isuky.heroic.screens.MainMenu;
+import net.isuky.dawnless.screens.MainMenu;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
