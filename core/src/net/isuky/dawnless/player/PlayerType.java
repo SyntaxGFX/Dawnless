@@ -21,6 +21,8 @@ public interface PlayerType
 		Elve,
 		Wolf,
 		Lynx,
+		Assassine,
+		Thief,
 		none
 	};
 }
