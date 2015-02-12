@@ -19,7 +19,7 @@ import com.badlogic.gdx.utils.XmlReader.Element;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
-public class Heroic extends Game 
+public class Dawnless extends Game 
 {
 	public static SpriteBatch batch;
 	public static Viewport viewport;	

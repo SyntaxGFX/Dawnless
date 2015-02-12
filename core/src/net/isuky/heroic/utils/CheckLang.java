@@ -2,7 +2,7 @@ package net.isuky.heroic.utils;
 
 import com.badlogic.gdx.Gdx;
 
-import net.isuky.heroic.Heroic;
+import net.isuky.heroic.Dawnless;
 
 public class CheckLang 
 {
@@ -13,7 +13,7 @@ public class CheckLang
 	public static String check()
 	{
 		String lang;
-		lang = Heroic.root.get("lang");
+		lang = Dawnless.root.get("lang");
 		
 		return lang;
 	}

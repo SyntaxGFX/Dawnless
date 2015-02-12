@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import javax.xml.parsers.ParserConfigurationException;
 
-import net.isuky.heroic.Heroic;
+import net.isuky.heroic.Dawnless;
 
 import org.xml.sax.SAXException;
 
@@ -39,6 +39,6 @@ public class DesktopLauncher
 		config.backgroundFPS = root.getInt("bfps");
 		config.title = root.get("title");
 		
-		new LwjglApplication(new Heroic(), config);
+		new LwjglApplication(new Dawnless(), config);
 	}
 }

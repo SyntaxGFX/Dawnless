@@ -1,6 +1,6 @@
 package net.isuky.heroic.screens;
 
-import net.isuky.heroic.Heroic;
+import net.isuky.heroic.Dawnless;
 import net.isuky.heroic.screens.control.MainMenuControl;
 
 import com.badlogic.gdx.Game;
@@ -51,7 +51,7 @@ public class MainMenu implements Screen
 	{
 		createMainMenuXmlReader();
 		
-		stage = new Stage(Heroic.viewport);
+		stage = new Stage(Dawnless.viewport);
 		Gdx.input.setInputProcessor(stage);// Make the stage consume events
 		 
 		//Initializes the Basic Skin
@@ -74,12 +74,12 @@ public class MainMenu implements Screen
 		stage.draw();
 	
 		
-		Heroic.batch.setProjectionMatrix(Heroic.camera.combined);
-		Heroic.batch.begin();
+		Dawnless.batch.setProjectionMatrix(Dawnless.camera.combined);
+		Dawnless.batch.begin();
 		{
 			
 		}
-		Heroic.batch.end();
+		Dawnless.batch.end();
 	}
 
 	@Override

@@ -1,6 +1,6 @@
 package net.isuky.heroic.screens.control;
 
-import net.isuky.heroic.Heroic;
+import net.isuky.heroic.Dawnless;
 import net.isuky.heroic.screens.MainMenu;
 import net.isuky.heroic.screens.PlayScreen;
 import net.isuky.heroic.utils.CheckLang;
