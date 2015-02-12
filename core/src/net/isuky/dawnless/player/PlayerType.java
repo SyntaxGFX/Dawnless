@@ -19,7 +19,7 @@ public interface PlayerType
 		Slave,
 		Orc,
 		Elve,
-		Wolve,
+		Wolf,
 		Lynx,
 		none
 	};
