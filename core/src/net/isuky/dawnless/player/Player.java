@@ -124,7 +124,10 @@ public class Player implements PlayerType
 	{
 		return playerVec;
 	}
-	
+	/**
+	 * 
+	 * Checks and animates the current Type of the Player
+	 * */
 	private void animateCurrentPlayerType()
 	{
 		switch(playerType)
