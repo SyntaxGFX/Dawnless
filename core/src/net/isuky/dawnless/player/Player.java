@@ -26,6 +26,8 @@ public class Player implements PlayerType
 				FRAME_COLS;
 	
 	//Animations
+	private PlayerAnimations playerAnimations;
+	
 	private Animation idle,
 					  walk,
 					  attack;
@@ -61,7 +63,10 @@ public class Player implements PlayerType
 		FRAME_COLS = 0;
 		FRAME_ROWS = 0;
 		
-		playerType = PlayerType.Type.none;
+		playerAnimations = new PlayerAnimations();
+		
+		playerType = PlayerType.Type.Archer;
+		
 	}
 	
 	/**
@@ -85,7 +90,7 @@ public class Player implements PlayerType
 	 * */
 	public void update(float delta)
 	{
-		
+
 	}
 	
 	/**
@@ -93,7 +98,7 @@ public class Player implements PlayerType
 	 * */
 	public void render(float delta)
 	{
-		
+		animateCurrentPlayerType();
 	}
 	
 	/**
@@ -120,21 +125,39 @@ public class Player implements PlayerType
 		return playerVec;
 	}
 	
-	private void initAnimations()
+	private void animateCurrentPlayerType()
 	{
-		if(playerType.equals(PlayerType.Type.Archer)){}
-		if(playerType.equals(PlayerType.Type.Assassine)){}
-		if(playerType.equals(PlayerType.Type.Elve)){}
-		if(playerType.equals(PlayerType.Type.Lynx)){}
-		if(playerType.equals(PlayerType.Type.Mage)){}
-		if(playerType.equals(PlayerType.Type.none)){}
-		if(playerType.equals(PlayerType.Type.Orc)){}
-		if(playerType.equals(PlayerType.Type.Paladin)){}
-		if(playerType.equals(PlayerType.Type.Skeleton)){}
-		if(playerType.equals(PlayerType.Type.Slave)){}
-		if(playerType.equals(PlayerType.Type.Thief)){}
-		if(playerType.equals(PlayerType.Type.Warrior)){}
-		if(playerType.equals(PlayerType.Type.Wolf)){}
-
+		switch(playerType)
+		{
+		case Archer:
+			playerAnimations.animateArcher();
+			break;
+		case Assassine:
+			break;
+		case Elve:
+			break;
+		case Lynx:
+			break;
+		case Mage:
+			break;
+		case Orc:
+			break;
+		case Paladin:
+			break;
+		case Skeleton:
+			break;
+		case Slave:
+			break;
+		case Thief:
+			break;
+		case Warrior:
+			break;
+		case Wolf:
+			break;
+		case none:
+			break;
+		default:
+			break;
+		}
 	}
 }
